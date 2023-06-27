@@ -1,14 +1,16 @@
 import './Homepage.css'
 import Header from '../header/Header'
-import Cart from '../Cart/Cart'
+import CartPosition from '../cartsPosition/cartPosition'
 
 
 
 function Homepage(){
     return(
         <>
+           <div className='homepage'>
            <Header/> 
-           <Cart/>
+           <CartPosition/>
+           </div>
         </>
     )
 }

@@ -1,3 +1,49 @@
-.pp{
-    color: red;
+
+.header{
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+    height: 6rem;
+    background-color: #ff5c39;
+    position: fixed;
+    display: inline-flex;
+    column-gap: 45rem;
+} 
+.about-shopping{
+    display: inline-flex;
+    column-gap: 5rem;
+}
+.shoprange{
+    display: flex;
+    flex-direction: column;
+}
+.shopicon{
+    font-size: 2rem;
+    align-items: center;
+    text-align: center;
+}
+.shop-priceSpan{
+    font-weight: bold;
+}
+.shop-numberSpan{
+    font-weight: bold;
+}
+.menu{
+    display: inline-flex;
+    column-gap: 4rem;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+}
+.products-menu{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.wallet{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.aboutUs{
+    font-size: 1.2rem;
+    font-weight: bold;
 }
